@@ -53,3 +53,30 @@
     text-align: justify;
     color: #fff;
 }
+
+.productsection{
+	margin-left: 1.5em;
+}
+
+@media screen and (max-width: 699px){
+    .products{
+		/*position: relative;*/
+		height: 100px;
+		width: 125px;
+		border-radius: 115px;
+	}
+
+	.overlay {
+		
+		width: 95px;
+		height: 75px;
+		
+	}
+
+	.overlaytext {
+		
+		width: 95px;
+		height: 75px;
+	}
+
+}
