@@ -1,0 +1,55 @@
+.headingline{
+	height:1px; 
+	color: #999; 
+	background: #999;
+}
+
+.heading{
+	position: relative;
+	top: -35px;
+	background: #fff;
+	padding-left: 2em;
+	padding-right:2em;
+	font-size: 1em;
+}
+
+.products{
+	/*position: relative;*/
+	height: 200px;
+	width: 250px;
+	border-radius: 115px;
+}
+
+.productimage {
+	border-radius: 10px;
+}
+
+.overlay {
+    background: -webkit-linear-gradient(white,black); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white,black); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white,black); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white,black); /* Standard syntax */
+    /*bottom: 0;*/
+    /*left: 0;*/
+    opacity: 0.5;
+    position: absolute;
+    /*right:0;*/
+    top:0;
+    z-index: 1;
+    width: 220px;
+    height: 150px;
+    text-align: center;
+    color: #fff;
+	border-radius: 10px;
+}
+
+.overlaytext {
+	padding-left: 1em;
+    position: absolute;
+    top:0;
+    z-index: 2;
+    width: 220px;
+    height: 150px;
+    text-align: justify;
+    color: #fff;
+}
