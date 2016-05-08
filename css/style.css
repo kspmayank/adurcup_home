@@ -2,6 +2,11 @@ body{
 	overflow-x: hidden;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
+
 .headingline{
 	height:1px; 
 	color: #999; 
@@ -15,6 +20,22 @@ body{
 	padding-left: 2em;
 	padding-right:2em;
 	font-size: 1em;
+}
+
+.heading1{
+	background: url('../img/background.png');
+	padding-top: 1.5em;
+	color: #fff;
+	background-size: contain;
+	height: 5em;
+}
+
+.heading2{
+	background: url('../img/background.png');
+	padding-top: 1.5em;
+	color: #fff;
+	background-size: contain;
+	height: 5em;
 }
 
 .products{
@@ -60,6 +81,15 @@ body{
 
 .productsection{
 	margin-left: 1.5em;
+}
+
+.view-all{
+	color: #FF5722;
+	border: 2px solid #CCCCCC;
+	border-radius: 10px;
+	margin: auto;
+	padding: 1em;
+	width: 20em;
 }
 
 @media screen and (max-width: 699px){
