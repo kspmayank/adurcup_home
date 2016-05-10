@@ -152,8 +152,12 @@ a:hover{
 
 	.overlaytext {
 		
-		width: 95px;
+		width: 125px;
 		height: 89px;
+	}
+
+	.carousel-control {
+		display: none;
 	}
 
 }
