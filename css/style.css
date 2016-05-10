@@ -15,7 +15,7 @@ a:hover{
 
 .heading{
 	position: relative;
-	top: -35px;
+	top: -31px;
 	background: #fff;
 	padding-left: 2em;
 	padding-right:2em;
@@ -40,7 +40,12 @@ a:hover{
 
 .products{
 	/*position: relative;*/
-	height: 200px;
+	/*height: 200px;*/
+	width: 250px;
+	border-radius: 115px;
+}
+
+.products-recent{
 	width: 250px;
 	border-radius: 115px;
 }
@@ -48,6 +53,9 @@ a:hover{
 .productimage {
 	border-radius: 10px;
 }
+
+
+
 
 .overlay {
     background: -webkit-linear-gradient(white,black); /* For Safari 5.1 to 6.0 */
@@ -81,6 +89,8 @@ a:hover{
 
 .productsection{
 	/*margin-left: 1.5em;*/
+	margin-right: 0;
+	margin-left: 0;
 }
 
 /*Center Align Columns*/
@@ -97,6 +107,7 @@ a:hover{
 
 }
 
+/*View More Section*/
 
 .view-all{
 	color: #FF5722;
@@ -105,27 +116,44 @@ a:hover{
 	margin: auto;
 	padding: 1em;
 	width: 20em;
+	cursor: pointer;
 }
 
+#package1-hide{
+	display: none;
+}
+
+#package2-hide{
+	display: none;
+}
+
+
+/*Responsive Media Queries*/
+
 @media screen and (max-width: 699px){
-    .products{
+    .products {
 		/*position: relative;*/
-		height: 100px;
+		/*height: 100px;*/
 		width: 125px;
 		border-radius: 115px;
+		margin: 0.5em;
+	}
+
+	.col-centered {
+		padding: 0;
 	}
 
 	.overlay {
 		
-		width: 95px;
-		height: 75px;
+		width: 125px;
+		height: 89px;
 		
 	}
 
 	.overlaytext {
 		
 		width: 95px;
-		height: 75px;
+		height: 89px;
 	}
 
 }
